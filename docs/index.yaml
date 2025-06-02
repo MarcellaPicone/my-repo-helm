@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  mydb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-02T20:33:45.822680841+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 7a634ffc54d7822cd9035bd3d4749b22a0753d0797440027e0bededcac62285f
+    name: mydb
+    type: application
+    urls:
+    - https://marcellapicone.github.io/my-repo-helm/mydb-0.1.0.tgz
+    version: 0.1.0
   myproject:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-02T19:25:07.573254706+01:00"
+    created: "2025-06-02T20:33:45.823375393+01:00"
     description: A Helm chart for Kubernetes
     digest: 3332d673fd96dbda50520442370ed75b8f26d9786a3104ad943f0204abb4f147
     name: myproject
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://marcellapicone.github.io/my-repo-helm/myproject-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-02T19:25:07.568881572+01:00"
+generated: "2025-06-02T20:33:45.822123822+01:00"
